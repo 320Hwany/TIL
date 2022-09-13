@@ -31,6 +31,6 @@ username, age를 직접 입력하고 전송 버튼을 누르면 post방식으로
 주로 회원 가입, 상품 주문 등에 사용하는 방식이다.  
 
 
-HTTP message body에 데이터를 직접 담아서 요청
+3. HTTP message body에 데이터를 직접 담아서 요청
 
 데이터 형식은 주로 Json을 사용하고 HTTP API에서 주로 사용한다. 
