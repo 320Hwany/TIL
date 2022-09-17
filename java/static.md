@@ -53,3 +53,5 @@ public class Sample {
 보통은 메소드를 만들면 객체를 생성해서 그 객체를 이용하여 메소드를 호출한다.  
 하지만 static 메소드는 위와 같이 Counter.getCount()로 클래스를 이용하여 메소드를 호출할 수 있다.  
 
+출처 : https://wikidocs.net/228
+
