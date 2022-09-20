@@ -55,3 +55,42 @@ username, age를 직접 입력하고 전송 버튼을 누르면 post방식으로
 1. 단순 텍스트 응답  
 2. HTML 응답  
 3. HTTP API - MessageBody Json 응답
+
+### HTTP 요청 파라미터
+
+스프링이 제공하는 @RequestParam을 사용하면 요청 파라미터를 편리하게 사용할 수 있다.
+
+```
+@ResponseBody
+    @RequestMapping("/request-param-v2")
+    public String requestParamV2(
+            @RequestParam("username") String memberName,
+            @RequestParam("age") int memberAge) {
+        log.info("username={}, age={}", memberName, memberAge);
+        return "ok";
+    }
+```
+
+request-param-v2?username=kim&age=20
+
+위와 같은 url로 들어오면 @RequestParam으로 받아서 처리할 수 있다.  
+이때 return "ok"; 는 ok라는 뷰를 찾아서 반환하는 것이 아니라  
+@ResponsBody가 있기 때문에 HTTP message body에 직접 해당 내용을 입력한다.
+
+다음으로 username, age를 가지고 있는 객체 HelloData가 있다고 하자.  
+
+```
+@ResponseBody
+  @RequestMapping("/model-attribute-v1")
+  public String modelAttributeV1(@ModelAttribute HelloData helloData) {
+      log.info("username={}, age={}", helloData.getUsername(),
+  helloData.getAge());
+      return "ok";
+  }
+```
+  
+이렇게 @ModelAttribute를 사용하면 놀랍게도... username, age를 알아서 넣어준다!  
+단 이때 HelloData 객체는 @Getter가 있어야 한다.
+
+
+
