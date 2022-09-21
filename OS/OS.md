@@ -43,7 +43,7 @@ device driver : device controller를 제어
 ## common function of interrupts 
 
 interrupts : 정상적인 일을 하는데 어떤 이벤트가 발생해서 그 이벤트가 우선적으로 처리되어야 함을 CPU에게 알리는 것  
-interrupt vector : interrupt를 구별하는 값  
+interrupt vector : interrupt를 구별하는 값 (주소 값)
 service routine : interrupt가 왔을 때 실행해야하는 program  
 
 CPU는 일을 시키고 I/O는 일을 다하면 interrupt를 건다. interrupt를 걸면 그 데이터를 처리.
@@ -62,3 +62,9 @@ Asymmetric multiprocessors, Symmetric multiprocessors
 
 Clustered Systems (컴퓨터가 여러 개)
 동시에 충돌나는 것을 막아야 한다. (동기화)
+
+Multiprogramming and multitasking
+
+Multiprograming(Batch system) : 메모리에 여러 프로그램을 동시에 로딩시키는 것  
+Multitasking(Time Sharing) : 어느 한 프로그램이 CPU가 필요없을 때 다른 프로그램 실행한다. CPU 시간을 잘게 쪼개 공유 함으로써  
+Response time(반응 시간)을 줄일 수 있다.
