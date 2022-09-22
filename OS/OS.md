@@ -68,3 +68,8 @@ Multiprogramming and multitasking
 Multiprograming(Batch system) : 메모리에 여러 프로그램을 동시에 로딩시키는 것  
 Multitasking(Time Sharing) : 어느 한 프로그램이 CPU가 필요없을 때 다른 프로그램 실행한다. CPU 시간을 잘게 쪼개 공유 함으로써  
 Response time(반응 시간)을 줄일 수 있다.
+
+> Virtual Machine 이란  
+
+OS나 하드웨어가 다르면 제대로 동작할 수 없지만 가상의 VM을 만들어서 프로그램이 동작할 수 있게 하여 호환성이 좋다.  
+또한 호환성 뿐만 아니라 한 시스템을 여러 시스템인 것처럼 사용해 공유의 관점에서도 유용하다
