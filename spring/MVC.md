@@ -83,8 +83,7 @@ request-param-v2?username=kim&age=20
   @ResponseBody
   @RequestMapping("/model-attribute-v1")
   public String modelAttributeV1(@ModelAttribute HelloData helloData) {
-      log.info("username={}, age={}", helloData.getUsername(),
-  helloData.getAge());
+      log.info("username={}, age={}", helloData.getUsername(),  helloData.getAge());
       return "ok";
   }
 ```
