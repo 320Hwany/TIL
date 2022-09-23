@@ -61,7 +61,7 @@ username, age를 직접 입력하고 전송 버튼을 누르면 post방식으로
 스프링이 제공하는 @RequestParam을 사용하면 요청 파라미터를 편리하게 사용할 수 있다.
 
 ```
-@ResponseBody
+    @ResponseBody
     @RequestMapping("/request-param-v2")
     public String requestParamV2(
             @RequestParam("username") String memberName,
@@ -80,7 +80,7 @@ request-param-v2?username=kim&age=20
 다음으로 username, age를 가지고 있는 객체 HelloData가 있다고 하자.  
 
 ```
-@ResponseBody
+  @ResponseBody
   @RequestMapping("/model-attribute-v1")
   public String modelAttributeV1(@ModelAttribute HelloData helloData) {
       log.info("username={}, age={}", helloData.getUsername(),
