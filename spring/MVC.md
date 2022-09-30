@@ -89,7 +89,7 @@ request-param-v2?username=kim&age=20
 ```
   
 이렇게 @ModelAttribute를 사용하면 놀랍게도... username, age를 알아서 넣어준다!  
-단 이때 HelloData 객체는 @Getter가 있어야 한다.  
+단 이때 HelloData 객체는 @Setter가 있어야 한다.  
 
 
 @ModelAttribute는 이렇게 요청 파라미터를 처리하는 기능과 또 한가지 기능이 있다.
