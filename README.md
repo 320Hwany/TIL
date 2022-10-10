@@ -1,7 +1,8 @@
 # Today I Learned (TIL)
 
 ## 데이터 베이스
-[DB](https://github.com/yhwjd/TIL/tree/main/DB/DB.md)  
+[DB](https://github.com/yhwjd/TIL/tree/main/DB/DB.md)             
+[SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)
 
 ## 운영체제
 
