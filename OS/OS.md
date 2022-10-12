@@ -19,13 +19,43 @@ interrupt가 없다면 어떤 일이 끝나기 전까지 다른 일을 하지 �
 
 ## System Call
 
-* System Call은 운영체제에서 제공하는 미리 구현된 유용한 함수이다. 사용자가 GUI나 CLI를 이용하여 명령어를 입력하면 system call이라는 함수를 이용하여  
+* System Call은 운영체제에서 제공하는 미리 구현된 유용한 함수이다. 사용자가 GUI나 CLI를 이용하여 명령어를 입력하면 system call이라는 함수를 이용하여 
 명령어 프로그램 수행에 필요한 여러가지 서비스를 제공한다. 
 * System Call은 소프트웨어 인터럽트의 한 종류이다.
 
 
 * 프로세스 관리를 위한 System call에는 fork(), wait(), exec() 등이 있다. 
-  1. fork() : 프로세스 생성을 위한 System call로 parent 프로세스와 똑같은 child 프로세스가 복제된다.  
+  1. fork() : 프로세스 생성을 위한 System call로 parent 프로세스와 똑같은 child 프로세스가 복제된다.(process id만 다름)  
   2. wait() : parent 프로세스가 child 프로세스의 종료를 대기해야 하는 경우에 사용한다. 
   3. exec() : parent와 다른 프로그램을 실행할 때 사용한다. 
+
+## 프로세스 
+
+* 사용 설명서를 프로그램이라고 한다면 사용 설명서대로 따라하는 동작을 프로세스라고 비유할 수 있다.  
+
+* 각 프로세스는 별도의 메모리 공간을 할당한다. 프로세스의 주소공간은 코드, 데이터, 힙, 스택이 있다.  
+코드는 프로그램의 소스코드를 저장하는 곳이고 데이터는 전역변수를 저장, 힙은 동적 할당 시 사용, 스택은 함수와 지역변수를 저장한다.  
+
+* 프로세스 상태로는 new, running, waiting, ready, terminated 가 있다.  
+new : 프로세스가 새로 생성된 상태  
+running : cpu를 할당 받아서 실질적으로 동작하는 상태  
+waiting : 어떠한 이벤트를 기다리는 상태  
+ready : wait 하던 것이 이벤트가 발생하면 ready 상태가 된다. cpu 할당을 기다리는 상태  
+terminated : 종료 상태
+
+* PCB(Process Control Block) : 프로세스를 관리하기 위한 테이블   
+PCB가 필요한 이유는 CPU가 여러 개의 프로세스를 관리하기 위해 각 프로세스의 정보를 알아야 하기 때문이다.     
+프로세스 테이블에는 process state, process priority, PC, registers, memory usage 와 같은 정보들이 저장되어 있다.
+
+* Context Switching  
+CPU가 이전 프로세스 정보를 PCB에 저장하고 (Context save) 또 다른 프로세스의 정보를 PCB에서 읽어 레지스터에 적재하는 과정이며
+이 과정은 프로세스 상태가 바뀔 때 발생한다.  
+CPU에게 프로세스를 계속 할당해주기 때문에 효율을 높일 수 있다. 하지만 Context Switching때는 
+CPU가 아무런 일을 하지 못하기 때문에 너무 많은 Context Switching으로 인해 overhead가 발생할 수 있다.
+
+* IPC(Inter Process Communication)  
+프로세스들은 서로 독립되어 있는데 이러한 프로세스 간의 통신을 말한다. 
+  1. Shared memmory : 같은 메모리를 공유함으로써 프로세스 간의 협력이 read, write 방식으로 이루어진다.  
+  2. Message passing : 프로세스 간의 협력이 send, receive 방식으로 이루어진다. 
+
 
