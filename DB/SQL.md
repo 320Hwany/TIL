@@ -39,7 +39,7 @@ SELECT id AS MemberID, username AS MemberName FROM Member;
 컬럼명과 다른이름으로 가져오고 싶을 때는 다음과 같이 AS로 바꿀 수 있다.                     
 
 
-# 알아두면 편한 연산자들 
+# 알아두어야 할 연산자들 
 
 1. BETWEEN A AND B, NOT BETWEEN A AND B
 
@@ -86,6 +86,35 @@ SELECT GREATEST(1,2,3);
 ```
 다음과 같이 괄호 안에서 가장 큰 값을 찾을 때 사용한다. MIN, LEAST도 마찬가지이다.
 
+# 그룹으로 묶기
 
+1. GROUP BY           
+```
+SELECT City FROM Member GROUP BY City;
+```  
+City로 그룹을 만든다. 중복되는 City가 있어도 같은 하나로 묶여 한번만 가져온다.
+
+```
+SELECT Country, City FROM Member GROUP BY Country, City;
+```   
+여러 컬럼으로 그룹 지을 수도 있다. 이 경우 둘 다 같을 경우 하나의 그룹으로 묶인다.  
+
+2. HAVING  
+
+```
+SELECT City, Count(*) AS Count FROM Member GROUP BY City HAVING Count <= 3;
+```
+HAVING은 그룹화 된 데이터를 걸러냅니다.
+
+> WHERE과 HAVING의 차이점  
+WHERE은 그룹화 하기 전 데이터를 HAVING은 그룹화 한 후 데이터를 집계할 때 사용한다.
+
+3. DISTINCT
+
+```
+SELECT DISTINCT City FROM Member;
+```  
+중복된 값들을 제거한다. GROUP BY와 다른 점은 집계에 사용되지 않는다. 또한 정렬을 고려하지 않아  
+GROUP BY 보다 빠르다
 
 
