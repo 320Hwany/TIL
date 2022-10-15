@@ -58,6 +58,10 @@ CPU가 아무런 일을 하지 못하기 때문에 너무 많은 Context Switchi
   1. Shared memmory : 같은 메모리를 공유함으로써 프로세스 간의 협력이 read, write 방식으로 이루어진다.  
   2. Message passing : 프로세스 간의 협력이 send, receive 방식으로 이루어진다. 
 
+  pipes : 한 프로세스가 다른 프로세스에게 데이터를 전달하는 길  
+  parent는 pipe를 생성하고 parent가 생성한 pipe를 child가 물려 받음  
+    1. ordinary pipes : parent-child relationship이 있을 때 사용한다. 한쪽 방향으로만 통신가능  
+    2. Named pipes : parent-child relationship이 없고 전혀 상관없는 프로세스끼리 통신가능. 한쪽 방향으로만 통신가능
 
 ## 쓰레드  
 쓰레드는 프로세스 안에서의 실행 단위이다. 한 프로세스 안에서 쓰레드들은 메모리를 공유한다.  
