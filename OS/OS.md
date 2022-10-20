@@ -84,3 +84,7 @@ CPU의 활용성을 높이기 위해서 프로세스를 잘 배정해야 한다.
 그렇기 때문에 소요시간이 긴 프로세스는 항상 우선 순위에서 밀린다.
 * First-come First-served Scheduling(FCFS) : 온 순서대로 처리를 한다. 따라서 소요시간이 긴 프로세스가 먼저온다면  
 다른 프로세스들의 처리시간이 늦어진다
+* Round Robin(RR) : time quantum을 설정하고 그 시간만큼만 수행하고 다른 프로세스에게 넘기는 방식으로 진행한다.   
+이런 방식은 모든 프로세스가 골고루 할당을 받을 수 있다는 장점이 있다. 하지만 time quantum이 너무 길면 FCFS와 차이가 없고  
+너무 짧으면 context switching이 자주 발생해 overhead가 발생하기 때문에 적절한 time quantum을 설정해야 한다.
+
