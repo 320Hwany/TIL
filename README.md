@@ -12,7 +12,8 @@
 ## spring
 
 [MVC 웹 프레임워크](https://github.com/yhwjd/TIL/blob/main/spring/MVC.md)   
-[Logging](https://github.com/yhwjd/TIL/blob/main/spring/logging.md)
+[Logging](https://github.com/yhwjd/TIL/blob/main/spring/logging.md)     
+[서블릿](https://github.com/yhwjd/TIL/blob/main/spring/%EC%84%9C%EB%B8%94%EB%A6%BF.md)
 
 
 ## 데이터 베이스          
