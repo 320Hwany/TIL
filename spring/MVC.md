@@ -43,10 +43,40 @@ username, age를 직접 입력하고 전송 버튼을 누르면 post방식으로
 메시지 바디에 쿼리 파라미터 형식으로 데이터를 전달한다.  
 주로 회원 가입, 상품 주문 등에 사용하는 방식이다.  
 
+1,2번 방법은 모두 쿼리 파라미터 형식으로 전달되기 때문에 request.getParameter()를 사용할 수 있다.
+
 
 3. HTTP message body에 데이터를 직접 담아서 요청
 
-데이터 형식은 주로 Json을 사용하고 HTTP API에서 주로 사용한다. 
+* API 메세지 바디 - 단순 텍스트 : 단순 텍스트를 HTTP 메세지 바디에 담아서 전송하는 방법이다.
+
+```
+ServletInputStream inputStream = request.getInputStream(); //message body 의 내용을 byte 코드로 바로 얻을 수 있다
+String messageBody = StreamUtils.copyToString(inputStream, StandardCharsets.UTF_8); // byte -> string
+```
+
+* API 메세지 바디 - Json : 데이터 형식은 주로 Json을 사용하고 HTTP API에서 주로 사용한다. 
+
+위와 같이 request.getInputStream(), StreamUtils.copToString()을 사용하여 message body의 내용을 바이트 코드로 바꾸고  
+바이트 코드를 string으로 바꾸는 방식은 같다. 
+```
+private ObjectMapper objectMapper = new ObjectMapper();
+```
+Spring boot에서 ObjectMapper라는 Jackson 라이브러리를 제공한다. 
+
+HelloData라는 객체가 있다고 해보자
+```
+@Getter @Setter
+public class HelloData {
+
+    private String username;
+    private int age;
+}
+```
+```
+HelloData helloData = objectMapper.readValue(messageBody, HelloData.class);
+```
+이렇게 사용하여 string 형식의 message body를 Json 방식으로 파싱하여 helloData 객체를 반환한다. 
 
 ## HTTP 응답 데이터 
 
