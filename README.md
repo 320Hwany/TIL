@@ -7,7 +7,8 @@
 [가비지 컬렉터](https://github.com/yhwjd/TIL/blob/main/java/%EA%B0%80%EB%B9%84%EC%A7%80%EC%BB%AC%EB%A0%89%ED%84%B0.md)    
 [String](https://github.com/yhwjd/TIL/blob/main/java/String.md)   
 [Comparable, Comparator](https://github.com/yhwjd/TIL/blob/main/java/Comparable%2C%20Comparator.md)  
-[Overriding, Overloading](https://github.com/yhwjd/TIL/blob/main/java/Overriding%2C%20Overloading.md)
+[Overriding, Overloading](https://github.com/yhwjd/TIL/blob/main/java/Overriding%2C%20Overloading.md)      
+[Lambda](https://github.com/yhwjd/TIL/blob/main/java/%EB%9E%8C%EB%8B%A4.md)
 
 ## spring
 
