@@ -1,10 +1,31 @@
-## MVC 웹 프레임워크
+## MVC 패턴 
 
-정적웹이 아닌 동적웹에서 사용된다.
-
+서블릿, JSP로만 구현을 했을 때 JSP가 너무 많은 역할을 가진다는 단점이 있었다. 이를 MVC패턴으로 역할을 나눌 수 있다.   
 Model : 데이터의 형식을 지정하고 저장하고 불러오는 작업  
 View : 눈에 보이는 것 웹의 경우 html, css로 나타내는 요소   
 Controller : Model의 데이터를 View에 연결해서 전반적인 제어를 하는 것
+
+여기서 Controller는 서블릿이 담당하고 View는 JSP가 담당한다. Controller에서 Model로 데이터를 전달하고 View에서 Model로  
+데이터를 참조한다. 또한 컨트롤러에 비즈니스 로직을 둘 수도 있지만 이렇게하면 컨트롤러가 너무 많은 역할을 담당하기 때문에   
+서비스라는 계층을 만들어 비즈니스 로직을 담당하게 한다.
+
+하지만 이러한 MVC 패턴의 컨트롤러에는 중복이 너무 많다.
+
+```
+ RequestDispatcher dispatcher = request.getRequestDispatcher(viewPath);// Controller 에서 view 로 이동할 때 사용
+ dispatcher.forward(request, response);
+```
+Controller에서 View로 이동하게 해주는 dispathcher와
+```
+String viewPath = "/WEB-INF/views/new-form.jsp";
+```
+ViewPath가 중복된다.  
+ 
+또한 이러한 설계는 공통처리가 어렵다. 이를 해결하기 위해서 컨트롤러 호출 전에 공통 기능을 처리하는 프론트 컨트롤러를 도입한다.
+
+## MVC 웹 프레임워크
+
+정적웹이 아닌 동적웹에서 사용된다.
 
 > 잠깐! 라이브러리 vs 프레임워크
 
