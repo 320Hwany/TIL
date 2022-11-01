@@ -70,7 +70,7 @@ defaultValue를 사용하여 데이터가 들어오지 않았을 때 기본 값�
 파라미터를 Map으로 조회할 수도 있다. 모두 paramMap안에 넣고 get으로 조회할 수 있다. 또한 하나의 key 값에 여러 개의 value가 있다면  
 MultiValueMap을 사용할 수도 있다.
 ```
-@ResponseBody 
+    @ResponseBody 
     @RequestMapping("/request-param-map")
     public String requestParamMap(
             @RequestParam Map<String, Object> paramMap) {
