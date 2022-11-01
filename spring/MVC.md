@@ -23,6 +23,8 @@ ViewPath가 중복된다.
  
 또한 이러한 설계는 공통처리가 어렵다. 이를 해결하기 위해서 컨트롤러 호출 전에 공통 기능을 처리하는 프론트 컨트롤러를 도입한다.
 
+[프론트 컨트롤러](https://github.com/yhwjd/TIL/blob/main/spring/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC.md)
+
 ## MVC 웹 프레임워크
 
 정적웹이 아닌 동적웹에서 사용된다.
@@ -33,6 +35,8 @@ ViewPath가 중복된다.
 가져다 쓰는 것이 라이브러리 기본 틀로 삼아서 위에 덧붙여 만드는게 프레임워크 
 
 ### HTTP 요청 파라미터
+
+1. @RequestParam    
 
 스프링이 제공하는 @RequestParam을 사용하면 요청 파라미터를 편리하게 사용할 수 있다.
 
@@ -52,6 +56,30 @@ request-param-v2?username=kim&age=20
 위와 같은 url로 들어오면 @RequestParam으로 받아서 처리할 수 있다.  
 이때 return "ok"; 는 ok라는 뷰를 찾아서 반환하는 것이 아니라  
 @ResponsBody가 있기 때문에 HTTP message body에 직접 해당 내용을 입력한다.
+
+required를 사용하여 이 파라미터가 필수인지 아닌지를 정할 수 있다. required = true가 기본 값이다.
+```
+@RequestParam(required = false) Integer age
+```
+
+defaultValue를 사용하여 데이터가 들어오지 않았을 때 기본 값으로 "guest"로 설정한다.
+```
+@RequestParam(defaultValue = "guest") String username
+```
+
+파라미터를 Map으로 조회할 수도 있다. 모두 paramMap안에 넣고 get으로 조회할 수 있다. 또한 하나의 key 값에 여러 개의 value가 있다면  
+MultiValueMap을 사용할 수도 있다.
+```
+@ResponseBody 
+    @RequestMapping("/request-param-map")
+    public String requestParamMap(
+            @RequestParam Map<String, Object> paramMap) {
+        log.info("username={}, age={}", paramMap.get("username"), paramMap.get("age"));
+        return "ok";
+    }
+```
+
+2. @ModelAttribute  
 
 다음으로 username, age를 가지고 있는 객체 HelloData가 있다고 하자.  
 
@@ -88,4 +116,43 @@ model.addAttribute("item", item);
 1. 요청 파라미터 처리
 2. Model 추가
 
+### HTTP message body
 
+1. 단순 텍스트  
+
+앞에서 설명한 요청 파라미터가 아닌 HTTP message body를 가져올 때는 @RequestBody를 사용한다.
+```
+    @ResponseBody
+    @PostMapping("/request-body-string-v4")
+    public String requestBodyStringV4(@RequestBody String messageBody) {
+        log.info("messageBody={}", messageBody);
+        return "ok";
+    }
+```
+@RequestBody가 HTTP message body를 가져와서 String 형태의 messageBody에 넣어준다.  
+이때 return "ok"; 는 ok라는 뷰를 찾아서 반환하는 것이 아니라  
+@ResponsBody가 있기 때문에 HTTP message body에 직접 해당 내용을 입력한다.
+
+2. JSON
+
+@RequestBody를 사용하면 객체 또한 넣어줄 수 있다.  
+JSON 요청 -> HTTP 메세지 컨버터 -> 객체
+```
+    @ResponseBody
+    @PostMapping("/request-body-json-v3")
+    public String requestBodyJsonV3(@RequestBody HelloData data) {
+        log.info("username={}, age={}", data.getUsername(), data.getAge());
+        return "ok";
+    }
+```
+
+@ResponseBody로 객체를 반환할 수 있다.  
+객체 -> HTTP 메세지 컨버터 -> JSON 응답
+```
+    @ResponseBody
+    @PostMapping("/request-body-json-v5")
+    public HelloData requestBodyJsonV5(@RequestBody HelloData data) {
+        log.info("username={}, age={}", data.getUsername(), data.getAge());
+        return data;
+    }
+```
