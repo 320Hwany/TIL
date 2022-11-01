@@ -156,3 +156,29 @@ JSON 요청 -> HTTP 메세지 컨버터 -> 객체
         return data;
     }
 ```
+### HTTP 응답 
+
+1. 정적 리소스 : 웹 브라우저에 정적인 HTML, css, js를 제공할 때는 정적 리소스를 사용한다  
+2. 뷰 템플릿 : 웹 브라우저에 동적인 HTML을 제공할 때는 뷰 템플릿을 사용한다   
+return 으로 뷰의 논리 이름을 반환한다.
+```
+    @RequestMapping("/response-view-v2")
+    public String responseViewV2(Model model) {
+        model.addAttribute("data", "hello!");
+         return "response/hello";
+    }
+```
+3. HTTP API 제공 : HTML을 전달하는 것이 아니고 데이터를 HTTP message body에 JSON 같은 형식으로 보낸다  
+
+```
+   @ResponseStatus(HttpStatus.OK)
+    @ResponseBody
+    @GetMapping("/response-body-json-v2")
+    public HelloData responseBodyJsonV2() {
+        HelloData helloData = new HelloData();
+        helloData.setUsername("userA");
+        helloData.setAge(20);
+        return helloData;
+    }
+```
+@Controller와 @ResponseBody를 합쳐 @RestController를 사용할 수도 있다.
