@@ -1,5 +1,7 @@
 ## String    
 
+String은 CharSequence 인터페이스를 구현한 구현체이다.  
+
 ```
 String a = new String("hello");
 ```  
@@ -18,4 +20,29 @@ String a = "hello";
 a = "hi";
 ``` 
 위와 같은 코드에서 a의 값 자체가 변했다고 생각할 수 있지만 "hello"가 들어간 메모리 말고 또 다른 영역의 메모리에  
-"hi"라는 값이 들어간다. 
+"hi"라는 값이 들어가고 "hello"는 가비지 컬렉터에 의해서 삭제될 수 있다.
+
+## 자주 사용하는 String 메소드  
+
+* char charAt(int index) : 문자열의 index번째 문자를 반환한다.  
+* String concat(String str) : 두 개의 문자열을 합쳐서 반환한다.  
+* Boolean isEmpty() : 문자열이 비어있는지 확인한다.  
+* String[] split(String regex), String[] split(String regex, int limit) : 문자열을 특정 문자를 기준으로 나눈다.
+* int length() : 문자열의 개수를 반환한다.  
+
+## String의 문제점   
+
+String은 불변성이다. 따라서 사용 빈도가 많다면 메모리가 부족해질 수 있다. 따라서 애플리케이션 성능에 영향을 미칠 수 있다.  
+이를 해결하기 위하여 불변성이 아닌 가변성의 특징을 가지는 StringBuffer, StringBuilder를 도입하였다.  
+
+## StringBuilder VS StringBuilder
+
+둘다 가변성을 가지는 클래스이지만 동기화 지원 유무에서 차이가 있다. StringBuffer는 동기화를 지원하여 멀티쓰레드 환경에서 안전성을 가진다.  
+StringBuilder는 동기화를 지원하지 않아서 멀티쓰레드 환경에서 안전성을 가지지 않는다.  
+
+마지막으로 문자열 클래스 3가지를 어떤 환경에서 사용하면 좋을지를 정리해보자.  
+* String : 문자열 연산이 적고 멀티쓰레드 환경  
+* StringBuffer : 문자열 연산이 많고 멀티쓰레드 환경  
+* StringBuilder : 문자열 연산이 많고 싱글쓰레드 환경, 동기화를 고려하지 않아도 되는 환경  
+이때 싱글쓰레드 환경에서는 StringBuilder가 StringBuffer보다 성능이 좋다
+
