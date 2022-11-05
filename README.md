@@ -18,6 +18,7 @@
 [MVC 웹 프레임워크](https://github.com/yhwjd/TIL/blob/main/spring/MVC.md)    
 [Logging](https://github.com/yhwjd/TIL/blob/main/spring/logging.md)     
 [PRG Post/Redirect/Get](https://github.com/yhwjd/TIL/blob/main/spring/PRG.md)    
+[thymeleaf](https://github.com/yhwjd/TIL/blob/main/spring/thymeleaf.md) 
 
 ## 데이터 베이스          
 [SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)
