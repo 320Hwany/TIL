@@ -98,4 +98,72 @@ th:each로 ${users} 컬렉션에서 하나씩 꺼내올 수 있다.
 또한 userStat으로 index, count, size, even, odd, first, last, current 등 정보를 가져올 수 있다.  
 지정한 변수명 + Stat일 경우에는 파라미터를 생략할 수 있다.  
 
+### 조건부 평가
+th:if, th:unless를 사용하여 조건에 맞으면 출력하고 조건에 맞지 않으면 출력하지 않는다.  
+
+```
+<span th:text="'미성년자'" th:if="${user.age lt 20}"></span>
+<span th:text="'미성년자'" th:unless="${user.age ge 20}"></span>
+```   
+switch case를 사용할 수도 있다.
+```
+<td th:switch="${user.age}">
+    <span th:case="10">10살</span>
+    <span th:case="20">20살</span>
+    <span th:case="*">기타</span>
+</td>
+```
+
+### 주석
+
+표준 HTML 주석, 타임리프 파서 주석, 타임리프 프로토타입 주석 3가지가 있지만 거의 대부분 타임리프 주석만 사용한다.  
+```
+<!--/* [[${data}]] */-->
+
+<!--/*-->
+<span th:text="${data}">html data</span>
+<!--*/-->
+```
+
+### 블록
+
+th:block은 HTML 태그가 아닌 타임리프의 유일한 자체 태그이다.  
+다음과 같이 두 div에서 반복되어 출력해야 할 경우 사용한다.
+```
+<th:block th:each="user : ${users}">
+    <div>
+        사용자 이름1 <span th:text="${user.username}"></span>
+        사용자 나이1 <span th:text="${user.age}"></span> </div>
+    <div>
+        요약 <span th:text="${user.username} + ' / ' + ${user.age}"></span>
+    </div>
+</th:block>
+```
+
+### 자바스크립트 인라인 
+
+타임리프는 자바스크립트에서 타임리프를 편리하게 사용할 수 있는 인라인 기능을 제공한다.  
+텍스트 렌더링, 내츄럴 템플릿 등을 지원한다.
+```
+<script th:inline="javascript">
+```
+
+### 템플릿 조각, 템플릿 레이아웃
+
+상단, 하단, 좌우측 카테고리 영역과 같이 여러 페이지에서 함께 사용하는 영역은 템플릿 조각을 사용해서 처리한다.   
+먼저 공통으로 처리할 내용을 th:fragment로 만든다. 
+```
+<footer th:fragment="copy"> 푸터 자리 입니다.
+```
+
+사용할 페이지에 insert, replace로 그 부분을 넣을 수 있다. insert는 추가하는 것이고 replace는 대체하는 것이다.   
+파라미터를 전달해서 동적으로 렌더링 할 수도 있다.
+```
+<div th:insert="~{template/fragment/footer :: copy}"></div>
+<div th:replace="~{template/fragment/footer :: copy}"></div>
+<div th:replace="~{template/fragment/footer :: copyParam ('데이터1', '데이터 2')}"></div>
+```
+일부 코드 조각을 레이 아웃에 넘겨 사용할 수도 있다.
+
+
 출처 : 스프링 MVC 2편(인프런 김영한)
