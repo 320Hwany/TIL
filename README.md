@@ -4,10 +4,11 @@
 
 [Call by value, Call by reference](https://github.com/yhwjd/TIL/blob/main/java/CallByValue.md)    
 [static 변수, 메소드 정리](https://github.com/yhwjd/TIL/tree/main/java/static.md)  
+[추상 클래스, 인터페이스](https://github.com/yhwjd/TIL/blob/main/java/%EC%B6%94%EC%83%81%20%ED%81%B4%EB%9E%98%EC%8A%A4%2C%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.md)   
+[Overriding, Overloading](https://github.com/yhwjd/TIL/blob/main/java/Overriding%2C%20Overloading.md)  
 [가비지 컬렉터](https://github.com/yhwjd/TIL/blob/main/java/%EA%B0%80%EB%B9%84%EC%A7%80%EC%BB%AC%EB%A0%89%ED%84%B0.md)    
 [String](https://github.com/yhwjd/TIL/blob/main/java/String.md)   
-[Comparable, Comparator](https://github.com/yhwjd/TIL/blob/main/java/Comparable%2C%20Comparator.md)  
-[Overriding, Overloading](https://github.com/yhwjd/TIL/blob/main/java/Overriding%2C%20Overloading.md)      
+[Comparable, Comparator](https://github.com/yhwjd/TIL/blob/main/java/Comparable%2C%20Comparator.md)       
 [Lambda](https://github.com/yhwjd/TIL/blob/main/java/%EB%9E%8C%EB%8B%A4.md)
 
 ## spring
