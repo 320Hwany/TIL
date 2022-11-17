@@ -21,6 +21,7 @@
 [PRG Post/Redirect/Get](https://github.com/yhwjd/TIL/blob/main/spring/PRG.md)    
 [thymeleaf](https://github.com/yhwjd/TIL/blob/main/spring/thymeleaf.md)   
 [메세지, 국제화](https://github.com/yhwjd/TIL/blob/main/spring/%EB%A9%94%EC%84%B8%EC%A7%80%2C%20%EA%B5%AD%EC%A0%9C%ED%99%94.md)   
+[validation](https://github.com/yhwjd/TIL/blob/main/spring/validation.md)        
 
 ## 데이터 베이스          
 [SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)
