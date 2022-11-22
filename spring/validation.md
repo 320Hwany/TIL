@@ -54,6 +54,18 @@ bindingResult에 error가 있는지는 다음과 같이 확인한다.
 bindingResult.hasErrors();
 ```
 
+또한 memberSignDto의 필드에 문제가 아니라 조합의 문제, 회원정보 없음과 같은 글로벌한 문제일 수도 있다.   
+이 경우에는 다음과 같이 bindingResult.reject()를 이용한다. "loginError"는 errors.properties에서 정의한 것이다. 
+```
+bindingResult.reject("loginError", new Object[]{}, null);
+```
+출력은 다음과 같은 방식으로 한다.  
+```
+<div th:if="${#fields.hasGlobalErrors()}">
+    <p th:each="err : ${#fields.globalErrors()}" th:text="${err}"></p>
+</div>
+```  
+
 ## Bean validation의 메세지를 찾는 순서
 
 Bean Validation을 적용했을 때 조건에 맞지 않으면 적절한 메세지를 출력해야 한다. 이때 메세지를 찾는 순서는 다음과 같다.    
