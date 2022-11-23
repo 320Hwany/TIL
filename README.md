@@ -22,7 +22,8 @@
 [thymeleaf](https://github.com/yhwjd/TIL/blob/main/spring/thymeleaf.md)   
 [메세지, 국제화](https://github.com/yhwjd/TIL/blob/main/spring/%EB%A9%94%EC%84%B8%EC%A7%80%2C%20%EA%B5%AD%EC%A0%9C%ED%99%94.md)   
 [validation](https://github.com/yhwjd/TIL/blob/main/spring/validation.md)         
-[쿠키, 세션](https://github.com/yhwjd/TIL/blob/main/spring/%EC%BF%A0%ED%82%A4%2C%20%EC%84%B8%EC%85%98.md)  
+[쿠키, 세션](https://github.com/yhwjd/TIL/blob/main/spring/%EC%BF%A0%ED%82%A4%2C%20%EC%84%B8%EC%85%98.md)    
+[스프링 인터셉터](https://github.com/yhwjd/TIL/blob/main/spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9D%B8%ED%84%B0%EC%85%89%ED%84%B0.md)  
 
 ## 데이터 베이스          
 [SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)
