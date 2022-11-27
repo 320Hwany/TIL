@@ -25,6 +25,9 @@
 [쿠키, 세션](https://github.com/yhwjd/TIL/blob/main/spring/%EC%BF%A0%ED%82%A4%2C%20%EC%84%B8%EC%85%98.md)    
 [스프링 인터셉터](https://github.com/yhwjd/TIL/blob/main/spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9D%B8%ED%84%B0%EC%85%89%ED%84%B0.md)  
 
+## JPA
+[JPA를 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/JPA/JPA%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)  
+
 ## 데이터 베이스          
 [SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)
 
