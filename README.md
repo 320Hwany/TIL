@@ -27,9 +27,11 @@
 
 ## JPA
 [JPA를 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/JPA/JPA%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)  
-[영속성 관리](https://github.com/yhwjd/TIL/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EA%B4%80%EB%A6%AC.md)  
+[영속성 관리](https://github.com/yhwjd/TIL/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EA%B4%80%EB%A6%AC.md)   
+
 ## 데이터 베이스          
-[SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)
+[SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)  
+[정규화](https://github.com/yhwjd/TIL/blob/main/DB/%EC%A0%95%EA%B7%9C%ED%99%94.md)  
 
 ## 운영체제
 
