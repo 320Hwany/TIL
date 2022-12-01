@@ -28,14 +28,15 @@ public int overridingTest(int a){
 
 ## Overloading
 
-상위 클래스나 인터페이스에 존재하는 메소드를 재정의하는데   
-이미 존재하는 메소드와 메소드명은 같으나 넣어주는 매개변수는 다르고 리턴타입은 다를 수도 있다.
+같은 클래스 내에서 이미 동일한 메소드를 가지지만 넣어주는 매개변수, 개수를 다르게 구현할 수 있다.  
+또한 리턴타입은 다를 수도 있다.
+
 ```
 public int overloadingTest(int a){
    return a;
 }
 ```
-위와 같은 메소드가 상위 클래스나 인터페이스 존재한다고 해보자.  
+위와 같은 메소드가 같은 클래스에 이미 존재한다고 해보자.  
 ```
 @Overloading
 public int overloadingTest(int a, int b){
