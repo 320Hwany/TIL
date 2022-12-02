@@ -31,6 +31,8 @@
 [엔티티 매핑](https://github.com/yhwjd/TIL/blob/main/JPA/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%A7%A4%ED%95%91.md)  
 [연관관계 매핑 기초](https://github.com/yhwjd/TIL/blob/main/JPA/%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)  
 [다양한 연관관계 매핑](https://github.com/320Hwany/TIL/blob/main/JPA/%EB%8B%A4%EC%96%91%ED%95%9C%20%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)  
+[고급매핑](https://github.com/320Hwany/TIL/blob/main/JPA/%EA%B3%A0%EA%B8%89%20%EB%A7%A4%ED%95%91.md)  
+
 ## 데이터 베이스          
 [SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)  
 [정규화](https://github.com/yhwjd/TIL/blob/main/DB/%EC%A0%95%EA%B7%9C%ED%99%94.md)  
