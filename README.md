@@ -32,6 +32,7 @@
 [연관관계 매핑 기초](https://github.com/yhwjd/TIL/blob/main/JPA/%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)  
 [다양한 연관관계 매핑](https://github.com/320Hwany/TIL/blob/main/JPA/%EB%8B%A4%EC%96%91%ED%95%9C%20%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)  
 [고급매핑](https://github.com/320Hwany/TIL/blob/main/JPA/%EA%B3%A0%EA%B8%89%20%EB%A7%A4%ED%95%91.md)  
+[프록시와 연관관계 관리](https://github.com/320Hwany/TIL/blob/main/JPA/%ED%94%84%EB%A1%9D%EC%8B%9C%EC%99%80%20%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EA%B4%80%EB%A6%AC.md)  
 
 ## 데이터 베이스          
 [SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)  
