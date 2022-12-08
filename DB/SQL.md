@@ -1,4 +1,4 @@
-# SELECT : 원하는 정보 가져오기
+## SELECT : 원하는 행 가져오기
 
 1. DB에 테이블이 있고 그 테이블 안에 컬럼들이 있다. Member 라는 Entity에 id, username, password, auth 라는 컬럼들이 있다고 하자.  
 ```
@@ -39,7 +39,7 @@ SELECT id AS MemberID, username AS MemberName FROM Member;
 컬럼명과 다른이름으로 가져오고 싶을 때는 다음과 같이 AS로 바꿀 수 있다.                     
 
 
-# 알아두어야 할 연산자들 
+## 알아두어야 할 연산자들 
 
 1. BETWEEN A AND B, NOT BETWEEN A AND B
 
@@ -69,7 +69,7 @@ SELECT id, username FROM Member WHERE username LIKE '_hello__');
 _ 가 있는 것은 그 수만큼 문자가 있는 것을 표현한다. 위와 같은 경우는 맨 앞에 어떤 문자 하나가 있고 그 뒤에 hello가 온 다음 뒤에 문자 2개가 더 있다.
 
 
-# 그룹 함수
+## 그룹 함수
 
 그룹 함수는 조건에 따라 집계된 값을 가져온다. 그룹 함수에는 MAX, MIN, COUNT, SUM, AVG가 있다.  
 ```
@@ -86,7 +86,7 @@ SELECT GREATEST(1,2,3);
 ```
 다음과 같이 괄호 안에서 가장 큰 값을 찾을 때 사용한다. MIN, LEAST도 마찬가지이다.
 
-# 그룹으로 묶기
+## 그룹으로 묶기
 
 1. GROUP BY           
 ```
@@ -117,4 +117,27 @@ SELECT DISTINCT City FROM Member;
 중복된 값들을 제거한다. GROUP BY와 다른 점은 집계에 사용되지 않는다. 또한 정렬을 고려하지 않아  
 GROUP BY 보다 빠르다
 
+## 데이터의 추가, 삭제, 갱신
+
+1. INSERT : 행 추가하기
+
+SELECT가 데이터 검색을 위한 명령이라면 INSERT는 데이터를 추가하는 명령이다.  
+
+```
+INSERT INTO 테이블명(열1, 열2, ...) VALUES(값1, 값2, ...);
+```
+2. DELETE : 삭제하기  
+
+DELETE 명령으로 행을 삭제할 수 있다. DELETE는 행 전체를 삭제하는 것이다. 행의 특정 열만 삭제하는 것은 불가능하다.   
+
+```
+DELETE FROM 테이블명 WHERE 조건식;
+```
+3. UPDATE : 갱신하기
+
+UPDATE 명령으로 행을 갱신할 수 있다. UPDATE는 행 전체 뿐만 아니라 특정 열만 갱신하는 것도 가능하다.  
+```
+UPDATE 테이블명 SET 열1 = 값1, 열2 = 값2, ... WHERE 조건식;
+```
+출처 : 얄팍한 코딩사전
 
