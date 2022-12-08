@@ -135,7 +135,7 @@ DELETE FROM 테이블명 WHERE 조건식;
 ```
 3. UPDATE : 갱신하기
 
-UPDATE 명령으로 행을 갱신할 수 있다. UPDATE는 행 전체 뿐만 아니라 특정 열만 갱신하는 것도 가능하다.  
+UPDATE 명령으로 행의 셀 값을 갱신할 수 있다. 
 ```
 UPDATE 테이블명 SET 열1 = 값1, 열2 = 값2, ... WHERE 조건식;
 ```
