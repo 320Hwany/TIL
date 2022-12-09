@@ -42,3 +42,4 @@
 ## 운영체제
 
 [OS](https://github.com/yhwjd/TIL/tree/main/OS/OS.md)   
+[메모리 관리](https://github.com/320Hwany/TIL/blob/main/OS/%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B4%80%EB%A6%AC.md)  
