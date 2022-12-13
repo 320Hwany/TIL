@@ -80,6 +80,38 @@ void test2() {
 또한 hashcode가 같아도 다른 객체일 수 있다. 이는 비교를 하는데 비용을 더 들이기 때문에  
 서로 다른 객체라면 다른 hashcode를 갖도록 하는 것이 효율적임을 알 수 있다.   
 
-hashcode는 이렇게 equals와 관련이 있기 때문에 equals를 override하는 경우라면 hashcode도 반드시 같이 override하자.
+hashcode는 이렇게 equals와 관련이 있기 때문에 equals를 override하는 경우라면 hashcode도 반드시 같이 override하자. 
+
+## hashcode 구현
+
+override한 hashcode를 살펴보자  
+```
+@Override
+public int hashCode() {
+    return Objects.hash(name, age);
+}
+```
+Objects.hash를 들어가보자 
+```
+public static int hash(Object... values) {
+    return Arrays.hashCode(values);
+}
+```
+다시 Arrays.hashCode를 들어가보자 
+```
+public static int hashCode(Object a[]) {
+    if (a == null)
+        return 0;
+
+    int result = 1;
+
+    for (Object element : a)
+        result = 31 * result + (element == null ? 0 : element.hashCode());
+
+    return result;
+}
+```
+
+hashcode가 반환한 수는 위와 같은 과정으로 반환되었다.
 
 출처 : https://codechacha.com/ko/java-hashcode/
