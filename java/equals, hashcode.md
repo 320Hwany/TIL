@@ -82,4 +82,4 @@ void test2() {
 
 hashcode는 이렇게 equals와 관련이 있기 때문에 equals를 override하는 경우라면 hashcode도 반드시 같이 override하자.
 
-출처 : https://codechacha.com/ko/java-hashcode
+출처 : https://codechacha.com/ko/java-hashcode/
