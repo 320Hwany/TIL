@@ -37,6 +37,11 @@
 [프록시와 연관관계 관리](https://github.com/320Hwany/TIL/blob/main/JPA/%ED%94%84%EB%A1%9D%EC%8B%9C%EC%99%80%20%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EA%B4%80%EB%A6%AC.md)  
 [값 타입](https://github.com/320Hwany/TIL/blob/main/JPA/%EA%B0%92%20%ED%83%80%EC%9E%85.md)  
 
+## 네트워크
+
+[HTTP 특징](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%ED%8A%B9%EC%A7%95.md)   
+[HTTP 메소드](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%86%8C%EB%93%9C.md)  
+
 ## 데이터 베이스          
 [SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)  
 [정규화](https://github.com/yhwjd/TIL/blob/main/DB/%EC%A0%95%EA%B7%9C%ED%99%94.md)  
