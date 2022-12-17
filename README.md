@@ -41,6 +41,8 @@
 
 [HTTP 특징](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%ED%8A%B9%EC%A7%95.md)   
 [HTTP 메소드](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%86%8C%EB%93%9C.md)  
+[HTTP Status Code](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20Status%20code.md)     
+[HTTP Header](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20header.md)        
 
 ## 데이터 베이스          
 [SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)  
