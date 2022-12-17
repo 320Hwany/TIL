@@ -36,6 +36,10 @@
 [고급매핑](https://github.com/320Hwany/TIL/blob/main/JPA/%EA%B3%A0%EA%B8%89%20%EB%A7%A4%ED%95%91.md)  
 [프록시와 연관관계 관리](https://github.com/320Hwany/TIL/blob/main/JPA/%ED%94%84%EB%A1%9D%EC%8B%9C%EC%99%80%20%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EA%B4%80%EB%A6%AC.md)  
 [값 타입](https://github.com/320Hwany/TIL/blob/main/JPA/%EA%B0%92%20%ED%83%80%EC%9E%85.md)  
+ 
+## Git
+[Git 시작하기](https://github.com/320Hwany/TIL/blob/main/Git/Git%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)  
+[버전 관리](https://github.com/320Hwany/TIL/blob/main/Git/%EB%B2%84%EC%A0%84%20%EA%B4%80%EB%A6%AC.md)  
 
 ## 네트워크
 
@@ -48,6 +52,7 @@
 [SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)  
 [정규화](https://github.com/yhwjd/TIL/blob/main/DB/%EC%A0%95%EA%B7%9C%ED%99%94.md)  
 [트랜잭션](https://github.com/320Hwany/TIL/blob/main/DB/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)  
+[인덱스](https://github.com/320Hwany/TIL/blob/main/DB/%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)  
 
 
 ## 운영체제
