@@ -15,7 +15,7 @@ SELECT id, username FROM Member;
 ```
 SELECT id, username FROM Member WHERE id > 10;
 ```
-위와 같이 id가 10보다 큰 Member의 username, password 컬럼 값을 가져올 수 있다.  
+위와 같이 id가 10보다 큰 Member의 id, username 컬럼 값을 가져올 수 있다.  
 
 
 4. ORDER BY를 이용하면 원하는 순서로 데이터를 가져올 수 있다.
@@ -64,7 +64,7 @@ SELECT id, username FROM Member WHERE username LIKE 'hello%';
 %가 있는 것은 문자가 0개이상 있는 것을 표현한다. 위와 같은 경우는 처음에는 hello로 시작하고 뒤에는 어떤 문자가 와도 상관없다.
 
 ```
-SELECT id, username FROM Member WHERE username LIKE '_hello__');
+SELECT id, username FROM Member WHERE username LIKE '_hello__';
 ```
 _ 가 있는 것은 그 수만큼 문자가 있는 것을 표현한다. 위와 같은 경우는 맨 앞에 어떤 문자 하나가 있고 그 뒤에 hello가 온 다음 뒤에 문자 2개가 더 있다.
 
