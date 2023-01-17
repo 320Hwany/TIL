@@ -11,7 +11,8 @@
 [Comparable, Comparator](https://github.com/yhwjd/TIL/blob/main/java/Comparable%2C%20Comparator.md)       
 [equals, hashcode](https://github.com/320Hwany/TIL/blob/main/java/equals%2C%20hashcode.md)         
 [Lambda](https://github.com/yhwjd/TIL/blob/main/java/%EB%9E%8C%EB%8B%A4.md)  
-[Stream](https://github.com/320Hwany/TIL/blob/main/java/Stream.md)          
+[Stream](https://github.com/320Hwany/TIL/blob/main/java/Stream.md)    
+[예외 처리](https://github.com/320Hwany/TIL/blob/main/java/%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC.md)  
 
 ## spring
 
