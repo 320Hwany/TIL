@@ -18,7 +18,7 @@
 
 [스프링을 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/spring/%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)  
 [서블릿](https://github.com/yhwjd/TIL/blob/main/spring/%EC%84%9C%EB%B8%94%EB%A6%BF.md)  
-[MVC 프레임 워크 구현하기](https://github.com/yhwjd/TIL/blob/main/spring/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC.md)  
+[MVC 웹 프레임 워크 구현하기](https://github.com/320Hwany/TIL/blob/main/spring/MVC%20%ED%94%84%EB%A0%88%EC%9E%84%20%EC%9B%8C%ED%81%AC%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md)    
 [MVC 웹 프레임워크](https://github.com/yhwjd/TIL/blob/main/spring/MVC.md)    
 [Logging](https://github.com/yhwjd/TIL/blob/main/spring/logging.md)     
 [PRG Post/Redirect/Get](https://github.com/yhwjd/TIL/blob/main/spring/PRG.md)    
