@@ -23,7 +23,7 @@ ViewPath가 중복된다.
  
 또한 이러한 설계는 공통처리가 어렵다. 이를 해결하기 위해서 컨트롤러 호출 전에 공통 기능을 처리하는 프론트 컨트롤러를 도입한다.
 
-[프론트 컨트롤러](https://github.com/yhwjd/TIL/blob/main/spring/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC.md)
+[MVC 웹 프레임워크](https://github.com/320Hwany/TIL/blob/main/spring/MVC%20%ED%94%84%EB%A0%88%EC%9E%84%20%EC%9B%8C%ED%81%AC%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md)
 
 ## MVC 웹 프레임워크
 
