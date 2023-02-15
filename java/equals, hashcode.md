@@ -7,8 +7,14 @@
 2. equals (동등성 비교), hashcode
 
 equals, hashcode는 모든 객체의 부모 클래스인 object 클래스에 정의되어 있다.   
-equals는 두 객체가 있을 때 주소 값은 다를 수 있지만 값이 같으면 true를 반환한다. (물론 재정의 할 수는 있다)  
-Hashcode는 객체를 식별하는 Integer 값이다.  
+```
+public boolean equals(Object obj) {
+        return (this == obj);
+}
+```
+기본적으로 equals는 동일성 비교이다. 동일성 비교가 아니라 동등성 비교가 필요할 때 재정의해서 사용한다.   
+예를들어 Integer, String 처럼 값을 표현할 때 객체가 같은지 비교하는 것이 아니라 값 자체가 같은 지  
+비교하고 싶을 때 재정의 한다. Hashcode는 객체를 식별하는 Integer 값이다.  
 
 두 객체가 equals()에 의해서 같으면 hashcode()도 같다.  
 -> 두 객체가 hashcode()에 의해 다르면 equals()도 다르고 서로 다른 객체다.  
