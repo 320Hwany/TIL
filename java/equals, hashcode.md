@@ -19,7 +19,7 @@ public boolean equals(Object obj) {
 두 객체가 equals()에 의해서 같으면 hashcode()도 같다.  
 -> 두 객체가 hashcode()에 의해 다르면 equals()도 다르고 서로 다른 객체다.  
 
-두 객체가 equals()에 의해서 다르면 hashcode()도 다르다.  
+두 객체가 equals()에 의해서 다르더라도 hashcode()는 같을 수 있다. 단 hashcode()가 다른 값을 반환해야 성능이 좋다.   
 -> 두 객체가 hashcode()에 의해 같으면 equals()는 같을 수도 있고 다를 수도 있다. 서로 같은 객체인지 아닌지 확인하지 못한다. 
 
 코드로 확인해보자. 먼저 Human 클래스를 만들고 equals, hashcode를 재정의 하였다.
