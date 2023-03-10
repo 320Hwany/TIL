@@ -11,6 +11,50 @@ String a = new String("hello");
 String a = "hello";
 ```
 
+두 방식의 차이점을 테스트해보자
+
+### StringTest
+
+```
+public class StringTest {
+
+    String a = "hello";
+    String b = "hello";
+    String c = "hi";
+
+    String aa = new String("hello");
+    String bb = new String("hello");
+    String cc = new String("hi");
+
+    @Test
+    void test1() {
+        System.out.println(a == a);
+        System.out.println(a == b);
+        System.out.println(a == c);
+    }
+
+    @Test
+    void test2() {
+        System.out.println(aa == aa);
+        System.out.println(aa == bb);
+        System.out.println(aa == cc);
+    }
+}
+```
+
+tset1의 결과는 각각
+  true
+  true
+  false
+
+test2의 결과는 각각
+  true
+  false
+  false
+  
+따라서 new String은 값이 같아도 객체를 계속 생성하고 리터럴 방식은 값이 같으면 재사용한다는 것을 확인할 수 있다.   
+리터럴 방식으로 표기한 방식을 더 자세히 알아보자   
+
 * 이렇게 String 자료형은 리터럴 방식으로 표기 가능하지만 primitive 자료형이 아니다.  
 * 따라서 메모리 공간이 변하지 않는다(immutable) 
 * 가비지 컬렉터에 의해서 제거된다.
