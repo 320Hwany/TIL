@@ -28,35 +28,25 @@ public class StringTest {
 
     @Test
     void test1() {
-        System.out.println(a == a);
-        System.out.println(a == b);
-        System.out.println(a == c);
+        System.out.println(a == a); // true
+        System.out.println(a == b); // true
+        System.out.println(a == c); // false
     }
 
     @Test
     void test2() {
-        System.out.println(aa == aa);
-        System.out.println(aa == bb);
-        System.out.println(aa == cc);
+        System.out.println(aa == aa); // true
+        System.out.println(aa == bb); // false
+        System.out.println(aa == cc); // false
     }
 }
 ```
-
-tset1의 결과는 각각
-  true
-  true
-  false
-
-test2의 결과는 각각
-  true
-  false
-  false
   
 따라서 new String은 값이 같아도 객체를 계속 생성하고 리터럴 방식은 값이 같으면 재사용한다는 것을 확인할 수 있다.   
-리터럴 방식으로 표기한 방식을 더 자세히 알아보자   
+String의 특징에 대해 더 자세히 알아보자.   
 
-* 이렇게 String 자료형은 리터럴 방식으로 표기 가능하지만 primitive 자료형이 아니다.  
-* 따라서 메모리 공간이 변하지 않는다(immutable) 
+* String 자료형은 리터럴 방식으로 표기 가능하지만 primitive 자료형이 아니다.  
+* String은 불변객체이다. 
 * 가비지 컬렉터에 의해서 제거된다.
 
 ```
@@ -64,15 +54,24 @@ String a = "hello";
 a = "hi";
 ``` 
 위와 같은 코드에서 a의 값 자체가 변했다고 생각할 수 있지만 "hello"가 들어간 메모리 말고 또 다른 영역의 메모리에  
-"hi"라는 값이 들어가고 "hello"는 가비지 컬렉터에 의해서 삭제될 수 있다.
+"hi"라는 값이 들어가고 "hello"는 가비지 컬렉터에 의해서 삭제될 수 있다.   
 
-## 자주 사용하는 String 메소드  
+## String이 불변 객체인 이유 
 
-* char charAt(int index) : 문자열의 index번째 문자를 반환한다.  
-* String concat(String str) : 두 개의 문자열을 합쳐서 반환한다.  
-* Boolean isEmpty() : 문자열이 비어있는지 확인한다.  
-* String[] split(String regex), String[] split(String regex, int limit) : 문자열을 특정 문자를 기준으로 나눈다.
-* int length() : 문자열의 개수를 반환한다.  
+1. 성능   
+ 불변이기 때문에 위와 같이 String은 heap 영역 안에 있는 String pool에 저장되어 같은 문자열은 새로 생성하지 않고  
+ 재사용할 수 있다.
+ 
+2. 동기화    
+ 불변 객체는 thread-safe하기 때문에 멀티 쓰레드 환경에서 사용해도 된다.   
+
+3. 캐싱   
+ String의 hashcode()를 사용할 때마다 호출하지 않고 처음 한 번만 사용하는데 이것은 String이 불변이기 때문에   
+ 캐싱하여 사용할 수 있다.  
+ 
+4. 보안   
+ 문자열은 서비스에서 아이디, 비밀번호와 같이 개인적인 정보를 저장하기 위해 많이 사용한다.  
+ 해커가 임의적으로 문자열을 변경할 수 없으므로 보안상 더 안전하다.   
 
 ## String의 문제점   
 
