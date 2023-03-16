@@ -45,6 +45,7 @@
 [Git 시작하기](https://github.com/320Hwany/TIL/blob/main/Git/Git%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)  
 [버전 관리](https://github.com/320Hwany/TIL/blob/main/Git/%EB%B2%84%EC%A0%84%20%EA%B4%80%EB%A6%AC.md)   
 [Branch](https://github.com/320Hwany/TIL/blob/main/Git/Branch.md)      
+[원격 저장소 사용하기](https://github.com/320Hwany/TIL/blob/main/Git/%EC%9B%90%EA%B2%A9%20%EC%A0%80%EC%9E%A5%EC%86%8C%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
 
 ## 네트워크
 
