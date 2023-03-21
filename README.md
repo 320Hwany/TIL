@@ -54,7 +54,8 @@
 [HTTP Status Code](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20Status%20code.md)     
 [HTTP Header](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20header.md)        
 
-## 데이터 베이스          
+## 데이터베이스          
+[데이터베이스를 사용하는 이유, DBMS](https://github.com/320Hwany/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)       
 [SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)  
 [정규화](https://github.com/yhwjd/TIL/blob/main/DB/%EC%A0%95%EA%B7%9C%ED%99%94.md)  
 [트랜잭션](https://github.com/320Hwany/TIL/blob/main/DB/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)  
