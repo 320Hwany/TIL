@@ -78,7 +78,7 @@ a = "hi";
 String은 불변성이다. 따라서 사용 빈도가 많다면 메모리가 부족해질 수 있다. 따라서 애플리케이션 성능에 영향을 미칠 수 있다.  
 이를 해결하기 위하여 불변성이 아닌 가변성의 특징을 가지는 StringBuffer, StringBuilder를 도입하였다.  
 
-## StringBuilder VS StringBuilder
+## StringBuffer VS StringBuilder
 
 둘다 가변성을 가지는 클래스이지만 동기화 지원 유무에서 차이가 있다. StringBuffer는 동기화를 지원하여 멀티쓰레드 환경에서 안전성을 가진다.  
 StringBuilder는 동기화를 지원하지 않아서 멀티쓰레드 환경에서 안전성을 가지지 않는다.  
