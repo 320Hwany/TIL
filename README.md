@@ -8,7 +8,7 @@
 [추상 클래스, 인터페이스](https://github.com/yhwjd/TIL/blob/main/java/%EC%B6%94%EC%83%81%20%ED%81%B4%EB%9E%98%EC%8A%A4%2C%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.md)   
 [Overriding, Overloading](https://github.com/yhwjd/TIL/blob/main/java/Overriding%2C%20Overloading.md)  
 [가비지 컬렉터](https://github.com/yhwjd/TIL/blob/main/java/%EA%B0%80%EB%B9%84%EC%A7%80%EC%BB%AC%EB%A0%89%ED%84%B0.md)    
-[String](https://github.com/yhwjd/TIL/blob/main/java/String.md)   
+[String, StringBulder, StringBuffer](https://github.com/yhwjd/TIL/blob/main/java/String.md)   
 [Comparable, Comparator](https://github.com/yhwjd/TIL/blob/main/java/Comparable%2C%20Comparator.md)       
 [Collection Framework](https://github.com/320Hwany/TIL/blob/main/java/Collection%20Framework.md)        
 [equals, hashcode](https://github.com/320Hwany/TIL/blob/main/java/equals%2C%20hashcode.md)         
@@ -56,7 +56,8 @@
 
 ## 데이터베이스          
 [데이터베이스를 사용하는 이유, DBMS](https://github.com/320Hwany/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)       
-[SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)  
+[SQL](https://github.com/yhwjd/TIL/blob/main/DB/SQL.md)   
+[데이터 타입](https://github.com/320Hwany/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85.md)   
 [정규화](https://github.com/yhwjd/TIL/blob/main/DB/%EC%A0%95%EA%B7%9C%ED%99%94.md)  
 [트랜잭션](https://github.com/320Hwany/TIL/blob/main/DB/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)  
 [인덱스](https://github.com/320Hwany/TIL/blob/main/DB/%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)  
