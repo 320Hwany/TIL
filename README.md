@@ -80,3 +80,6 @@
 [전략 패턴](https://github.com/320Hwany/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4/%EC%A0%84%EB%9E%B5%20%ED%8C%A8%ED%84%B4.md)    
 [프록시 패턴](https://github.com/320Hwany/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4/%ED%94%84%EB%A1%9D%EC%8B%9C%20%ED%8C%A8%ED%84%B4.md)    
 [데코레이터 패턴](https://github.com/320Hwany/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4/%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0%20%ED%8C%A8%ED%84%B4.md)      
+
+## AWS
+[EC2](https://github.com/320Hwany/TIL/blob/main/AWS/EC2.md)       
