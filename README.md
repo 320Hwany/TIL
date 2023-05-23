@@ -9,7 +9,7 @@
 [추상 클래스, 인터페이스](https://github.com/yhwjd/TIL/blob/main/java/%EC%B6%94%EC%83%81%20%ED%81%B4%EB%9E%98%EC%8A%A4%2C%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.md)   
 [Overriding, Overloading](https://github.com/yhwjd/TIL/blob/main/java/Overriding%2C%20Overloading.md)  
 [가비지 컬렉터](https://github.com/yhwjd/TIL/blob/main/java/%EA%B0%80%EB%B9%84%EC%A7%80%EC%BB%AC%EB%A0%89%ED%84%B0.md)    
-[String, StringBulder, StringBuffer](https://github.com/yhwjd/TIL/blob/main/java/String.md)   
+[String, StringBuilder, StringBuffer](https://github.com/yhwjd/TIL/blob/main/java/String.md)   
 [Comparable, Comparator](https://github.com/yhwjd/TIL/blob/main/java/Comparable%2C%20Comparator.md)       
 [Collection Framework](https://github.com/320Hwany/TIL/blob/main/java/Collection%20Framework.md)        
 [equals, hashcode](https://github.com/320Hwany/TIL/blob/main/java/equals%2C%20hashcode.md)         
@@ -42,6 +42,7 @@
 [동적 프록시 기술](https://github.com/320Hwany/TIL/blob/main/spring/%EB%8F%99%EC%A0%81%20%ED%94%84%EB%A1%9D%EC%8B%9C%20%EA%B8%B0%EC%88%A0.md)   
 [프록시 팩토리](https://github.com/320Hwany/TIL/blob/main/spring/%ED%94%84%EB%A1%9D%EC%8B%9C%20%ED%8C%A9%ED%86%A0%EB%A6%AC.md)   
 [빈 후처리기](https://github.com/320Hwany/TIL/blob/main/spring/%EB%B9%88%20%ED%9B%84%EC%B2%98%EB%A6%AC%EA%B8%B0.md)   
+[트랜잭션](https://github.com/320Hwany/TIL/blob/main/spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)  
 
 ## JPA
 [JPA를 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/JPA/JPA%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)  
