@@ -78,7 +78,8 @@
 
 ## 운영체제
 
-[OS](https://github.com/yhwjd/TIL/tree/main/OS/OS.md)   
+[OS](https://github.com/yhwjd/TIL/tree/main/OS/OS.md)    
+[프로세스](https://github.com/320Hwany/TIL/blob/main/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.md)    
 [메모리 관리](https://github.com/320Hwany/TIL/blob/main/OS/%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B4%80%EB%A6%AC.md)  
 
 ## 디자인 패턴
