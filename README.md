@@ -2,7 +2,8 @@
 
 ## Java
 
-[자바 컴파일 과정](https://github.com/320Hwany/TIL/blob/main/java/%EC%9E%90%EB%B0%94%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%20%EA%B3%BC%EC%A0%95.md)    
+[이펙티브 자바 모음](https://github.com/320Hwany/EffectiveJava)         
+[자바 컴파일 과정](https://github.com/320Hwany/TIL/blob/main/java/%EC%9E%90%EB%B0%94%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%20%EA%B3%BC%EC%A0%95.md)  
 [JVM](https://github.com/320Hwany/TIL/blob/main/java/JVM.md)       
 [Call by value, Call by reference](https://github.com/yhwjd/TIL/blob/main/java/CallByValue.md)    
 [static 변수, 메소드 정리](https://github.com/yhwjd/TIL/tree/main/java/static.md)  
@@ -10,7 +11,7 @@
 [Overriding, Overloading](https://github.com/yhwjd/TIL/blob/main/java/Overriding%2C%20Overloading.md)  
 [가비지 컬렉터](https://github.com/yhwjd/TIL/blob/main/java/%EA%B0%80%EB%B9%84%EC%A7%80%EC%BB%AC%EB%A0%89%ED%84%B0.md)    
 [String, StringBuilder, StringBuffer](https://github.com/yhwjd/TIL/blob/main/java/String.md)   
-[Comparable, Comparator](https://github.com/yhwjd/TIL/blob/main/java/Comparable%2C%20Comparator.md)       
+[Comparable](https://github.com/320Hwany/TIL/blob/main/java/Comparable.md)            
 [Collection Framework](https://github.com/320Hwany/TIL/blob/main/java/Collection%20Framework.md)        
 [equals, hashcode](https://github.com/320Hwany/TIL/blob/main/java/equals%2C%20hashcode.md)         
 [Lambda](https://github.com/yhwjd/TIL/blob/main/java/%EB%9E%8C%EB%8B%A4.md)  
@@ -18,7 +19,7 @@
 [예외 처리](https://github.com/320Hwany/TIL/blob/main/java/%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC.md)    
 [ThreadLocal](https://github.com/320Hwany/TIL/blob/main/java/ThreadLocal.md)         
 [JDBC](https://github.com/320Hwany/TIL/blob/main/java/JDBC.md)        
-[리플렉션](https://github.com/320Hwany/TIL/blob/main/java/%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98.md)    
+[리플렉션](https://github.com/320Hwany/TIL/blob/main/java/%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98.md)     
 
 ## Spring
 
