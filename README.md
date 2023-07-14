@@ -77,7 +77,8 @@
 [정규화](https://github.com/yhwjd/TIL/blob/main/DB/%EC%A0%95%EA%B7%9C%ED%99%94.md)  
 [트랜잭션](https://github.com/320Hwany/TIL/blob/main/DB/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)  
 [인덱스](https://github.com/320Hwany/TIL/blob/main/DB/%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)     
-[MySQL 엔진 아키텍처](https://320hwany.tistory.com/83)         
+[MySQL 엔진 아키텍처](https://320hwany.tistory.com/83)          
+[InnoDB 스토리지 엔진 아키텍처](https://320hwany.tistory.com/84)        
 
 
 ## 운영체제
