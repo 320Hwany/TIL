@@ -66,7 +66,8 @@
 [HTTP 특징](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%ED%8A%B9%EC%A7%95.md)   
 [HTTP 메소드](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%86%8C%EB%93%9C.md)  
 [HTTP Status Code](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20Status%20code.md)     
-[HTTP Header](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20header.md)        
+[HTTP Header](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20header.md)       
+[물리 계층(L1), 데이터 링크 계층(L2)이 하는 일](https://320hwany.tistory.com/85)        
 [웹 브라우저가 메세지를 만든다(feat. HTTP, DNS, OS 프로토콜 스택, 소켓)](https://320hwany.tistory.com/80)           
 [TCP/IP를 이용한 통신 알아보기(feat. 소켓, LAN 어댑터, UDP)](https://320hwany.tistory.com/81)      
 
