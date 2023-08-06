@@ -71,7 +71,8 @@
 [네트워크 계층(L3)이 하는 일(feat. IP, 라우터, ARP, NAT...)](https://320hwany.tistory.com/86)      
 [트랜스포트 계층(L4)이 하는 일(feat. 포트, TCP, UDP, QUIC)](https://320hwany.tistory.com/87)        
 [웹 브라우저가 메세지를 만든다(feat. HTTP, DNS, OS 프로토콜 스택, 소켓)](https://320hwany.tistory.com/80)           
-[TCP/IP를 이용한 통신 알아보기(feat. 소켓, LAN 어댑터, UDP)](https://320hwany.tistory.com/81)      
+[TCP/IP를 이용한 통신 알아보기(feat. 소켓, LAN 어댑터, UDP)](https://320hwany.tistory.com/81)       
+[로그인 방식 비교하기 (세션 방식 VS 토큰 방식)](https://320hwany.tistory.com/89)       
 
 ## 데이터베이스          
 [데이터베이스를 사용하는 이유, DBMS](https://github.com/320Hwany/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)       
