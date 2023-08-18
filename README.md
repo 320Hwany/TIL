@@ -6,6 +6,7 @@
 [자바 컴파일 과정](https://github.com/320Hwany/TIL/blob/main/java/%EC%9E%90%EB%B0%94%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%20%EA%B3%BC%EC%A0%95.md)  
 [JVM](https://github.com/320Hwany/TIL/blob/main/java/JVM.md)     
 [자바 쓰레드 관리의 시작](https://320hwany.tistory.com/91)         
+[자바 쓰레드 관리의 발전 - 1](https://320hwany.tistory.com/92)          
 [자바가 Call By Reference가 아닌 이유](https://320hwany.tistory.com/88)          
 [static 변수, 메소드 정리](https://github.com/yhwjd/TIL/tree/main/java/static.md)  
 [추상 클래스, 인터페이스](https://github.com/yhwjd/TIL/blob/main/java/%EC%B6%94%EC%83%81%20%ED%81%B4%EB%9E%98%EC%8A%A4%2C%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.md)   
