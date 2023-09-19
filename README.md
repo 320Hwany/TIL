@@ -21,7 +21,7 @@
 [예외 처리](https://github.com/320Hwany/TIL/blob/main/java/%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC.md)    
 [ThreadLocal](https://github.com/320Hwany/TIL/blob/main/java/ThreadLocal.md)         
 [JDBC](https://github.com/320Hwany/TIL/blob/main/java/JDBC.md)        
-[리플렉션](https://github.com/320Hwany/TIL/blob/main/java/%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98.md)     
+[Java Reflection이란 무엇인가? (feat. 스프링 DI의 원리, JPA 기본 생성자)](https://320hwany.tistory.com/97)           
 
 ## Spring
 
