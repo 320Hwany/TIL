@@ -91,6 +91,7 @@
 [InnoDB 스토리지 엔진 아키텍처](https://320hwany.tistory.com/84)         
 [무작정 데이터 타입을 VARCHAR(65535)로 하면 안되는 이유](https://320hwany.tistory.com/95)         
 [DB의 동시성 문제는 어떻게 해결해야 하나?](https://320hwany.tistory.com/99)         
+[Lock을 사용한 격리와 MVCC가 나온 이유](https://320hwany.tistory.com/100)          
 
 
 ## 운영체제
