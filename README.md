@@ -23,6 +23,7 @@
 [JDBC](https://github.com/320Hwany/TIL/blob/main/java/JDBC.md)        
 [Java Reflection이란 무엇인가? (feat. 스프링 DI의 원리, JPA 기본 생성자)](https://320hwany.tistory.com/97)           
 [Java의 foreach 문의 내부 동작 방식 (feat. Iterator, Iterable)](https://320hwany.tistory.com/98)         
+[Java의 synchronized와 Atomic Type에 대해서](https://320hwany.tistory.com/101)           
 
 ## Spring
 
