@@ -24,7 +24,7 @@
 [Java Reflection이란 무엇인가? (feat. 스프링 DI의 원리, JPA 기본 생성자)](https://320hwany.tistory.com/97)           
 [Java의 foreach 문의 내부 동작 방식 (feat. Iterator, Iterable)](https://320hwany.tistory.com/98)         
 [Java의 synchronized와 Atomic Type에 대해서](https://320hwany.tistory.com/101)           
-
+[직렬화는 무엇이고 왜 필요한 것일까?](https://320hwany.tistory.com/104)        
 ## Spring
 
 [스프링을 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/spring/%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)     
