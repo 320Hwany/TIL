@@ -53,7 +53,8 @@
 [트랜잭션](https://github.com/320Hwany/TIL/blob/main/spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)    
 [문제가 많은 Layerd Architecture를 살려보자](https://320hwany.tistory.com/102)          
 [바이너리 데이터를 처리하는 방법](https://320hwany.tistory.com/103)            
-[Spring에서 멀티 쓰레드 비동기 프로그래밍 해보기](https://320hwany.tistory.com/107)     
+[Spring에서 멀티 쓰레드 비동기 프로그래밍 해보기](https://320hwany.tistory.com/107)      
+[Spring에서 공통 로직을 처리하는 방법 - 로그인 방식으로 알아보기](https://320hwany.tistory.com/108)        
 
 ## JPA
 [JPA를 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/JPA/JPA%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)  
