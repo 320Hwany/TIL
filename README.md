@@ -25,7 +25,8 @@
 [Java의 foreach 문의 내부 동작 방식 (feat. Iterator, Iterable)](https://320hwany.tistory.com/98)         
 [Java의 synchronized와 Atomic Type에 대해서](https://320hwany.tistory.com/101)           
 [직렬화는 무엇이고 왜 필요한 것일까?](https://320hwany.tistory.com/104)    
-[Getter를 무분별하게 사용하면 안되는 이유](https://320hwany.tistory.com/106)             
+[Getter를 무분별하게 사용하면 안되는 이유](https://320hwany.tistory.com/106)         
+[Java에서 배열이 객체인 이유와 메모리 할당에 대해서](https://320hwany.tistory.com/109)       
 
 ## Spring
 
