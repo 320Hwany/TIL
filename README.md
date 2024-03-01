@@ -56,7 +56,8 @@
 [바이너리 데이터를 처리하는 방법](https://320hwany.tistory.com/103)            
 [Spring에서 멀티 쓰레드 비동기 프로그래밍 해보기](https://320hwany.tistory.com/107)      
 [Spring에서 공통 로직을 처리하는 방법 - 로그인 방식으로 알아보기](https://320hwany.tistory.com/108)        
-[도메인과 DB 엔티티를 분리하는 이유](https://320hwany.tistory.com/110)      
+[도메인과 DB 엔티티를 분리하는 이유](https://320hwany.tistory.com/110)       
+[테스트 코드에서 @Transactional 사용에 대한 끊임 없는 논쟁](https://320hwany.tistory.com/111)         
 
 ## JPA
 [JPA를 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/JPA/JPA%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)  
