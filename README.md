@@ -103,6 +103,7 @@
 [무작정 데이터 타입을 VARCHAR(65535)로 하면 안되는 이유](https://320hwany.tistory.com/95)         
 [DB의 동시성 문제는 어떻게 해결해야 하나?](https://320hwany.tistory.com/99)         
 [Lock을 사용한 격리와 MVCC가 나온 이유](https://320hwany.tistory.com/100)          
+[RDB는 정말 유연한 설계에 대응하는 것이 어려울까?](https://320hwany.tistory.com/113)     
 
 
 ## 운영체제
@@ -118,7 +119,7 @@
 [프록시 패턴](https://github.com/320Hwany/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4/%ED%94%84%EB%A1%9D%EC%8B%9C%20%ED%8C%A8%ED%84%B4.md)    
 [데코레이터 패턴](https://github.com/320Hwany/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4/%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0%20%ED%8C%A8%ED%84%B4.md)      
 
-## DevOps
+## DevOps
 [AWS EC2](https://github.com/320Hwany/TIL/blob/main/AWS/EC2.md)         
 [AWS RDS](https://github.com/320Hwany/TIL/blob/main/AWS/RDS.md)      
 [팀 프로젝트를 위한 github actions CI/CD 세팅](https://320hwany.tistory.com/112)       
