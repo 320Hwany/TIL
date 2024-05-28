@@ -51,14 +51,21 @@
 [동적 프록시 기술](https://github.com/320Hwany/TIL/blob/main/spring/%EB%8F%99%EC%A0%81%20%ED%94%84%EB%A1%9D%EC%8B%9C%20%EA%B8%B0%EC%88%A0.md)   
 [프록시 팩토리](https://github.com/320Hwany/TIL/blob/main/spring/%ED%94%84%EB%A1%9D%EC%8B%9C%20%ED%8C%A9%ED%86%A0%EB%A6%AC.md)   
 [빈 후처리기](https://github.com/320Hwany/TIL/blob/main/spring/%EB%B9%88%20%ED%9B%84%EC%B2%98%EB%A6%AC%EA%B8%B0.md)   
-[트랜잭션](https://github.com/320Hwany/TIL/blob/main/spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)    
-[문제가 많은 Layerd Architecture를 살려보자](https://320hwany.tistory.com/102)          
+[트랜잭션](https://github.com/320Hwany/TIL/blob/main/spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)         
 [바이너리 데이터를 처리하는 방법](https://320hwany.tistory.com/103)            
 [Spring에서 멀티 쓰레드 비동기 프로그래밍 해보기](https://320hwany.tistory.com/107)      
-[Spring에서 공통 로직을 처리하는 방법 - 로그인 방식으로 알아보기](https://320hwany.tistory.com/108)        
-[도메인과 DB 엔티티를 분리하는 이유](https://320hwany.tistory.com/110)       
+[Spring에서 공통 로직을 처리하는 방법 - 로그인 방식으로 알아보기](https://320hwany.tistory.com/108)             
+
+## 테스트 코드
+
 [테스트 코드에서 @Transactional 사용에 대한 끊임 없는 논쟁](https://320hwany.tistory.com/111)      
-[저희 팀에서는 이렇게 테스트 코드를 작성해요](https://320hwany.tistory.com/115)        
+[저희 팀에서는 이렇게 테스트 코드를 작성해요](https://320hwany.tistory.com/115)          
+
+## 아키텍쳐
+
+[문제가 많은 Layerd Architecture를 살려보자](https://320hwany.tistory.com/102)     
+[도메인과 DB 엔티티를 분리하는 이유](https://320hwany.tistory.com/110)   
+[복잡한 비즈니스 로직을 풀어내는 방법](https://320hwany.tistory.com/116)       
 
 ## JPA
 [JPA를 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/JPA/JPA%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)  
