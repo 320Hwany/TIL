@@ -60,6 +60,7 @@
 
 [테스트 코드에서 @Transactional 사용에 대한 끊임 없는 논쟁](https://320hwany.tistory.com/111)      
 [저희 팀에서는 이렇게 테스트 코드를 작성해요](https://320hwany.tistory.com/115)          
+[제어할 수 없는 영역을 테스트 하는 방법](https://320hwany.tistory.com/117)         
 
 ## 아키텍쳐
 
