@@ -98,8 +98,9 @@
 [웹 브라우저가 메세지를 만든다(feat. HTTP, DNS, OS 프로토콜 스택, 소켓)](https://320hwany.tistory.com/80)           
 [TCP/IP를 이용한 통신 알아보기(feat. 소켓, LAN 어댑터, UDP)](https://320hwany.tistory.com/81)       
 [로그인 방식 비교하기 (세션 방식 VS 토큰 방식)](https://320hwany.tistory.com/89)       
-[WAS가 처리할 수 있는 요청의 수는 어떻게 결정될까?](https://320hwany.tistory.com/94)         
+[서버가 처리할 수 있는 요청의 수는 어떻게 결정될까?](https://320hwany.tistory.com/94)         
 [HTTP의 버전별 특징(0.9, 1.0, 1.1, 2.0)](https://320hwany.tistory.com/105)         
+[개발바닥 장학 퀴즈를 정리해 보자](https://320hwany.tistory.com/119)      
 
 ## 데이터베이스          
 [데이터베이스를 사용하는 이유, DBMS](https://github.com/320Hwany/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)       
@@ -110,7 +111,7 @@
 [인덱스](https://github.com/320Hwany/TIL/blob/main/DB/%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)     
 [MySQL 엔진 아키텍처](https://320hwany.tistory.com/83)          
 [InnoDB 스토리지 엔진 아키텍처](https://320hwany.tistory.com/84)         
-[무작정 데이터 타입을 VARCHAR(65535)로 하면 안되는 이유](https://320hwany.tistory.com/95)         
+[무작정 데이터 타입을 VARCHAR(16683)로 하면 안되는 이유](https://320hwany.tistory.com/95)         
 [DB의 동시성 문제는 어떻게 해결해야 하나?](https://320hwany.tistory.com/99)         
 [Lock을 사용한 격리와 MVCC가 나온 이유](https://320hwany.tistory.com/100)          
 [RDB는 정말 유연한 설계에 대응하는 것이 어려울까?](https://320hwany.tistory.com/113)     
