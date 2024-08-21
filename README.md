@@ -54,7 +54,8 @@
 [트랜잭션](https://github.com/320Hwany/TIL/blob/main/spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)         
 [바이너리 데이터를 처리하는 방법](https://320hwany.tistory.com/103)            
 [Spring에서 멀티 쓰레드 비동기 프로그래밍 해보기](https://320hwany.tistory.com/107)      
-[Spring에서 공통 로직을 처리하는 방법 - 로그인 방식으로 알아보기](https://320hwany.tistory.com/108)             
+[Spring에서 공통 로직을 처리하는 방법 - 로그인 방식으로 알아보기](https://320hwany.tistory.com/108)            
+[스프링 빈을 싱글톤으로 유지하는 방법과 이유](https://320hwany.tistory.com/120)      
 
 ## 테스트 코드
 
