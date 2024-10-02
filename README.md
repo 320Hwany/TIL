@@ -58,35 +58,6 @@
 [Spring에서 공통 로직을 처리하는 방법 - 로그인 방식으로 알아보기](https://320hwany.tistory.com/108)            
 [스프링 빈을 싱글톤으로 유지하는 방법과 이유](https://320hwany.tistory.com/120)      
 
-## 테스트 코드
-
-[테스트 코드에서 @Transactional 사용에 대한 끊임 없는 논쟁](https://320hwany.tistory.com/111)      
-[저희 팀에서는 이렇게 테스트 코드를 작성해요](https://320hwany.tistory.com/115)          
-[제어할 수 없는 영역을 테스트 하는 방법](https://320hwany.tistory.com/117)         
-
-## 아키텍쳐
-
-[문제가 많은 Layerd Architecture를 살려보자](https://320hwany.tistory.com/102)     
-[도메인과 DB 엔티티를 분리하는 이유](https://320hwany.tistory.com/110)   
-[복잡한 비즈니스 로직을 풀어내는 방법](https://320hwany.tistory.com/116)       
-[조건문이 많아질 때 List<인터페이스>를 사용해보자](https://320hwany.tistory.com/118)         
-
-## JPA
-[JPA를 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/JPA/JPA%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)  
-[영속성 관리](https://github.com/yhwjd/TIL/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EA%B4%80%EB%A6%AC.md)    
-[엔티티 매핑](https://github.com/yhwjd/TIL/blob/main/JPA/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%A7%A4%ED%95%91.md)  
-[연관관계 매핑 기초](https://github.com/yhwjd/TIL/blob/main/JPA/%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)  
-[다양한 연관관계 매핑](https://github.com/320Hwany/TIL/blob/main/JPA/%EB%8B%A4%EC%96%91%ED%95%9C%20%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)  
-[고급매핑](https://github.com/320Hwany/TIL/blob/main/JPA/%EA%B3%A0%EA%B8%89%20%EB%A7%A4%ED%95%91.md)  
-[프록시와 연관관계 관리](https://github.com/320Hwany/TIL/blob/main/JPA/%ED%94%84%EB%A1%9D%EC%8B%9C%EC%99%80%20%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EA%B4%80%EB%A6%AC.md)  
-[값 타입](https://github.com/320Hwany/TIL/blob/main/JPA/%EA%B0%92%20%ED%83%80%EC%9E%85.md)  
- 
-## Git
-[Git 시작하기](https://github.com/320Hwany/TIL/blob/main/Git/Git%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)  
-[버전 관리](https://github.com/320Hwany/TIL/blob/main/Git/%EB%B2%84%EC%A0%84%20%EA%B4%80%EB%A6%AC.md)   
-[Branch](https://github.com/320Hwany/TIL/blob/main/Git/Branch.md)      
-[원격 저장소 사용하기](https://github.com/320Hwany/TIL/blob/main/Git/%EC%9B%90%EA%B2%A9%20%EC%A0%80%EC%9E%A5%EC%86%8C%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
-
 ## 네트워크
 
 [HTTP 특징](https://github.com/320Hwany/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%ED%8A%B9%EC%A7%95.md)   
@@ -117,13 +88,42 @@
 [DB의 동시성 문제는 어떻게 해결해야 하나?](https://320hwany.tistory.com/99)         
 [Lock을 사용한 격리와 MVCC가 나온 이유](https://320hwany.tistory.com/100)          
 [RDB는 정말 유연한 설계에 대응하는 것이 어려울까?](https://320hwany.tistory.com/113)     
-
+[필터링 검색 기능은 어떻게 구현되는 것일까? (feat. inverted index)](https://320hwany.tistory.com/122)      
 
 ## 운영체제
 
 [OS](https://github.com/yhwjd/TIL/tree/main/OS/OS.md)    
 [프로세스](https://github.com/320Hwany/TIL/blob/main/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.md)    
 [메모리 관리](https://github.com/320Hwany/TIL/blob/main/OS/%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B4%80%EB%A6%AC.md)  
+
+## 테스트 코드
+
+[테스트 코드에서 @Transactional 사용에 대한 끊임 없는 논쟁](https://320hwany.tistory.com/111)      
+[저희 팀에서는 이렇게 테스트 코드를 작성해요](https://320hwany.tistory.com/115)          
+[제어할 수 없는 영역을 테스트 하는 방법](https://320hwany.tistory.com/117)         
+
+## 아키텍쳐
+
+[문제가 많은 Layerd Architecture를 살려보자](https://320hwany.tistory.com/102)     
+[도메인과 DB 엔티티를 분리하는 이유](https://320hwany.tistory.com/110)   
+[복잡한 비즈니스 로직을 풀어내는 방법](https://320hwany.tistory.com/116)       
+[조건문이 많아질 때 List<인터페이스>를 사용해보자](https://320hwany.tistory.com/118)         
+
+## JPA
+[JPA를 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/JPA/JPA%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)  
+[영속성 관리](https://github.com/yhwjd/TIL/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EA%B4%80%EB%A6%AC.md)    
+[엔티티 매핑](https://github.com/yhwjd/TIL/blob/main/JPA/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%A7%A4%ED%95%91.md)  
+[연관관계 매핑 기초](https://github.com/yhwjd/TIL/blob/main/JPA/%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)  
+[다양한 연관관계 매핑](https://github.com/320Hwany/TIL/blob/main/JPA/%EB%8B%A4%EC%96%91%ED%95%9C%20%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)  
+[고급매핑](https://github.com/320Hwany/TIL/blob/main/JPA/%EA%B3%A0%EA%B8%89%20%EB%A7%A4%ED%95%91.md)  
+[프록시와 연관관계 관리](https://github.com/320Hwany/TIL/blob/main/JPA/%ED%94%84%EB%A1%9D%EC%8B%9C%EC%99%80%20%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%20%EA%B4%80%EB%A6%AC.md)  
+[값 타입](https://github.com/320Hwany/TIL/blob/main/JPA/%EA%B0%92%20%ED%83%80%EC%9E%85.md)  
+
+## Git
+[Git 시작하기](https://github.com/320Hwany/TIL/blob/main/Git/Git%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)  
+[버전 관리](https://github.com/320Hwany/TIL/blob/main/Git/%EB%B2%84%EC%A0%84%20%EA%B4%80%EB%A6%AC.md)   
+[Branch](https://github.com/320Hwany/TIL/blob/main/Git/Branch.md)      
+[원격 저장소 사용하기](https://github.com/320Hwany/TIL/blob/main/Git/%EC%9B%90%EA%B2%A9%20%EC%A0%80%EC%9E%A5%EC%86%8C%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)  
 
 ## 디자인 패턴
 
