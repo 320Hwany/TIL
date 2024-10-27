@@ -88,7 +88,8 @@
 [DB의 동시성 문제는 어떻게 해결해야 하나?](https://320hwany.tistory.com/99)         
 [Lock을 사용한 격리와 MVCC가 나온 이유](https://320hwany.tistory.com/100)          
 [RDB는 정말 유연한 설계에 대응하는 것이 어려울까?](https://320hwany.tistory.com/113)     
-[필터링 검색 기능은 어떻게 구현되는 것일까? (feat. inverted index)](https://320hwany.tistory.com/122)      
+[필터링 검색 기능은 어떻게 구현되는 것일까? (feat. inverted index)](https://320hwany.tistory.com/122)       
+[MVCC 만으로 팬텀 리드를 막을 수 있을까?](https://320hwany.tistory.com/123)       
 
 ## 운영체제
 
