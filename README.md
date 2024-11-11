@@ -109,6 +109,7 @@
 [도메인과 DB 엔티티를 분리하는 이유](https://320hwany.tistory.com/110)   
 [복잡한 비즈니스 로직을 풀어내는 방법](https://320hwany.tistory.com/116)       
 [조건문이 많아질 때 List<인터페이스>를 사용해보자](https://320hwany.tistory.com/118)         
+[UUID 충돌 발생이 예상된다면 어떻게 대처를 해야 할까?](https://320hwany.tistory.com/124)         
 
 ## JPA
 [JPA를 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/JPA/JPA%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)  
