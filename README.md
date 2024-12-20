@@ -29,6 +29,10 @@
 [Java에서 배열이 객체인 이유와 메모리 할당에 대해서](https://320hwany.tistory.com/109)      
 [Java Virtual Thread 에 대해 알아보자](https://320hwany.tistory.com/121)      
 
+## Go
+
+[Goroutine 과 Java virtual thread 비교해보기](https://320hwany.tistory.com/125)        
+
 ## Spring
 
 [스프링을 사용하는 이유](https://github.com/yhwjd/TIL/blob/main/spring/%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)     
