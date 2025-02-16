@@ -31,7 +31,8 @@
 
 ## Go
 
-[Goroutine 과 Java virtual thread 비교해보기](https://320hwany.tistory.com/125)        
+[Goroutine 과 Java virtual thread 비교해보기](https://320hwany.tistory.com/125)    
+[Golang 에서의 예외 처리](https://320hwany.tistory.com/126)       
 
 ## Spring
 
